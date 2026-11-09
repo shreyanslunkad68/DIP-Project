@@ -1,0 +1,15 @@
+{
+  "input": "C:\\Users\\SHREYANS\\Downloads\\DIP_PROJECT\\land_cover_classification_project\\data\\01_original.png",
+  "height": 593,
+  "width": 1400,
+  "input_band_count": 3,
+  "clusters": 5,
+  "features_used": [
+    "RGB",
+    "CLAHE intensity",
+    "local variance texture"
+  ],
+  "spectral_ratio_computed": false,
+  "georeferenced_geotiff_exported": false,
+  "warning": "Cluster IDs are unsupervised groups, not verified semantic land-cover classes. Accuracy requires ground truth."
+}
